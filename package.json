@@ -109,11 +109,6 @@
   },
   "private": true,
   "browserslist": "defaults",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "linters": {
       "*.js": [
