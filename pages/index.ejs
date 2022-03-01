@@ -173,6 +173,8 @@
             </div>
           </li>
 
+          <p id="error" class="error">※選択されていない項目があります。</p>
+
           <div id="next-btn" class="next-btn">次へ</div>
         </ol>
 
@@ -236,24 +238,35 @@
               <p>～？</p>
             </div>
             <div class="answer">
-              <input id="q6-y" class="btn" name="q12" type="radio" value="1"><label class="label" for="q12-y">YES</label>
+              <input id="q12-y" class="btn" name="q12" type="radio" value="1"><label class="label" for="q12-y">YES</label>
               <input id="q12-n" class="btn" name="q12" type="radio" value="0"><label class="label" for="q12-n">NO</label>
             </div>
           </li>
 
-          <div class="check-btn">
+          <p id="error" class="error">※選択されていない項目があります。</p>
+
+          <!-- <div class="check-btn">
             <button type="button" id="resultBtn">結果を見る</button>
             <button type="button" id="backBtn" class="hide">戻る</button>
+          </div> -->
+
+          <div class="check-btn">
+            <button type="button">
+              <a id="resultBtn" href="#">結果を見る</a>
+            </button>
           </div>
         </ol>
       </section>
 
-      <section id="result">
+      <!-- <section id="result">
         <h2 id="type_title"></h2>
         <p id="type_desc"></p>
+      </section> -->
+
+      <section id="result">
+        <!-- <h2 id="type_title"></h2>
+        <p id="type_desc"></p> -->
       </section>
-      
-      <p id="error"></p>
 
     </main><!-- .l-main -->
 

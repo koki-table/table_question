@@ -73,7 +73,7 @@
     border-radius: 3.2vw;
     -webkit-box-shadow: 1.2vw 1.2vw 0 0 #025bb4;
     box-shadow: 1.2vw 1.2vw 0 0 #025bb4;
-    margin-top: 60px;
+    margin-top: 35px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -88,6 +88,10 @@
       border: 3px solid;
       border-color: #565656 #565656 transparent transparent;
       transform: rotate(45deg);
+    }
+
+    &.active {
+      display: none;
     }
   }
 
@@ -151,6 +155,21 @@ input {
 }
 #error {
   font-size: 14px;
-  margin-top: 10px;
+  margin: 20px auto 0;
+  margin-top: 40px;
   color: #bf3030;
+  background-color: #fff;
+  padding: 3.5333333333vw 5.3333333333vw 4.0666666667vw;
+  border: 0.8vw solid #000;
+  border-radius: 3.2vw;
+  -webkit-box-shadow: 1.2vw 1.2vw 0 0 #025bb4;
+  box-shadow: 1.2vw 1.2vw 0 0 #025bb4;
+  width: 78.6666666667vw;
+  text-align: center;
+  font-weight: bold;
+  display: none;
+
+  &.active {
+    display: block;
+  }
 }
